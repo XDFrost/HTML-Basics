@@ -1,0 +1,76 @@
+<html>
+
+    <head>
+        <title> PAYMENT FORM </title>
+    </head>
+
+    <body>
+
+        <form action="" method="get">
+
+            <h1> Payment Form </h1>
+            <hr>
+            <hr>
+            <h2> Contact info </h2>
+            <h3> Required fields are followed by * </h3>
+
+            <p>
+                * Name: <input type="text" name = "name" placeholder = "Name" required>
+            </p>
+            
+            <fieldset>
+                <legend> Gender </legend>
+                    <p> 
+                        <!-- <p> Male <input type="radio" name="hi" id=""> Female <input type="radio" name="gender" id=""> </p> -->
+                        Male <input type="radio" name="gender" id="male"> Female <input type="radio" name="gender" id="female">
+                    </p>
+                </fieldset>
+
+            <p>
+                <label for="address">* Address</label>
+                <textarea name="address" id="address" cols="100" rows="5" required> </textarea>
+            </p>
+
+            <p>
+                * Email: <input type="email" name="email" id="email" placeholder = "Email" required>
+            </p>
+            
+            <p>
+                * Pincode: <input type="number" name="pincode" id="pincode" placeholder="Pincode" required>
+            </p>
+
+            <hr>
+
+            <h2> Payment Information </h2>
+
+            <p>
+                * Card Type:
+                    <select name="card_type" id="card_type" required>
+                        <option value=""> --Select a Card Type-- </option>
+                        <option value=" visa "> Visa </option>
+                        <option value=" master card "> Master Card </option>
+                        <option value=" rupay "> Rupay </option>
+                        <option value=" credit card "> Credit Card </option>
+                        <option value=" debit card "> Debit Card </option>
+                    </select>
+            </p>
+
+            <p>
+                * Card Number: <input type="number" name="card_number" id="card_number" placeholder="Card number" required>
+            </p>
+
+            <p>
+                * Expiration Date: <input type="date" name="exp_date" id="exp_date" required>
+            </p>
+
+            <p>
+                * CVV: <input type="password" name="cvv" id="cvv" placeholder="CVV" required>
+            </p>
+
+            <input type="submit" value="Pay Now" onclick="window.location.href =  'https://ide.geeksforgeeks.org';">
+
+        </form>
+
+    </body>
+
+</html>

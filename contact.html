@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>CONTACT ME</h1>
+    <form action="action.php">
+        NAME:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">
+        <br><br>
+        MOBILE NUMBER:<input type="number">
+        <br><br>
+        Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email">
+        <br><br>
+        Create Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password"><br>
+        Confirm Password:&nbsp; &nbsp;&nbsp;<input type="password">
+        <br><br>
+        <div>
+        Select Gender<br>
+        <label for="101">
+            <input type="radio" value="Male" name="Gender" id="101">Male <br>
+        </label>
+        <label for="102">    
+            <input type="radio" value="Female" name="Gender" id="102">Female <br>
+        </label>
+        <label for="103">
+            <input type="radio" value="Others" name="Gender" id="103">Others <br>
+        </label>
+        </div>
+        <br><br>
+        <div>
+            Select the Language/s you know: <br>
+            <label for="106">
+                <input type="checkbox" value="Java" name="lang" id="106">Java <br>
+            </label>
+            <label for="107">
+                <input type="checkbox" value="C++" name="lang" id="107">C++ <br>
+            </label>
+            <label for="108">
+                <input type="checkbox" value="Python" name="lang" id="108">Python <br>
+            </label>
+        </div>
+        <br>
+        Address:<br>
+        <textarea name="Address" id="104" rows="10"></textarea>
+        <br>
+        <br>
+        Your Designation:
+        <select name="Designation" id="105">Designation:
+            <option value="Default" selected>--Select your Designation--</option>
+            <option value="Recruiter">Recruiter</option>
+            <option value="Designer">Designer</option>
+            <option value="Learner">Learner</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit"> <input type="reset" value="Reset">
+        </form>
+</body>
+</html>
